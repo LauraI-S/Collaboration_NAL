@@ -13,7 +13,7 @@ const NavBar = () => {
   return (
     <nav>
         <div className="flex-between
-        fixed top-0 bg-gradient-to-r from-fuchsia-900 to-[#180c49] border-b border-orange-300 z-30 w-full py-6">
+        fixed top-0 bg-gradient-to-r from-[#d32fc8] to-[#6d0766] border-b border-gray-300 z-30 w-full py-6">
             <div className="flex-between mx-auto w-5/6">
                 <div className="flex-between w-full gap-16">
                     <Link href="/">
@@ -21,10 +21,10 @@ const NavBar = () => {
                     </Link>
                 { isAboveMediumScreens ?(<div className="flex-between w-2/5">
                     <Link href='/characters' className="flex items-center gap-3">
-                    <p className="text-3xl hover:text-orange-500 font-semibold text">Characters</p>
+                    <p className="text-3xl hover:text-gray-500 font-semibold text">Characters</p>
                     </Link>
                     <Link href='/episodes' className="flex items-center gap-3">
-                    <p className="text-3xl hover:text-orange-500 font-semibold text">Episodes</p>
+                    <p className="text-3xl hover:text-gray-500 font-semibold text">Episodes</p>
                     </Link> 
                 </div>)
                 : (
